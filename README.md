@@ -1,7 +1,7 @@
 # kafka_producer-consumer
 Producer and consumer using Python and Apache Kafka.
 
-To initialize Kafka:
+To initialize Kafka:  
 `docker-compose up`
 
 To register a topic:
