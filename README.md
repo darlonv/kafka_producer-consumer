@@ -1,5 +1,5 @@
 # kafka_producer-consumer
-Producer and consumer using Python and Apache Kafka
+Producer and consumer using Python and Apache Kafka.
 
 To initialize Kafka:
 `docker-compose up`
