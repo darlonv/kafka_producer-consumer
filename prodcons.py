@@ -1,5 +1,3 @@
-#pip3 install kafka-python
-
 from kafka import KafkaConsumer, KafkaProducer
 from kafka.admin import KafkaAdminClient, NewTopic
 
