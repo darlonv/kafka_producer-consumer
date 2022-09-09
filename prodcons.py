@@ -22,9 +22,7 @@ def list_topics():
 	return cons.topics()
 
 def create_topic(topic):
-	global admin_client
-	if not admin_client:
-		admin_client = KafkaAdminClient(bootstrap_servers=kafka_server)
+	admin_client = KafkaAdminClient(bootstrap_servers=kafka_server)
 
 	if topic not in list_topics():
 		topic_list = []
